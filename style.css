@@ -1,0 +1,162 @@
+.header{
+    background-color: #1f2937;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 650px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 16px;
+}
+.links{
+    display: flex;
+    font-size: 18px;
+}
+ul{
+    list-style-type: none; /* Remove bullets */
+  padding: 16px; /* Remove padding */
+  margin: 0; /* Remove margins */
+  display: flex;
+  gap: 16px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.subhead{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+.intro{
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.title-1{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.text-1{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align:justify;
+    flex-wrap: wrap;
+}
+.img-1{
+    padding: 48px;
+}
+.sign{
+    align-self: baseline;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #3882f6;
+    color: white;
+}
+
+.content-one{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.title-2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 48px;
+}
+.info{
+    display: flex;
+    padding-bottom: 48px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.one , .two , .three , .four{
+    border: 0px;
+    padding:  16px;
+    margin: 16px;
+
+}
+img{
+    border-radius: 12px;
+}
+.text{
+    text-align: center;
+    align-self: center;
+}
+.content-two{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    padding: 96px;
+    font-style:italic;
+    font-size: 36px;
+    text-decoration-color: #1f2937;
+}
+.author{
+    align-self:flex-end;
+    font-weight: bolder;
+}
+.content-three {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background:white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.modal {
+    background: rgb(75, 141, 228);
+    max-width: 800px;
+    height: 60px;
+    border-radius: 6px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 48px;
+    margin: 68px;
+    padding: 48px;
+  }
+  .cont{
+    color: white;
+  }
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sign-up{
+    align-self: center;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #eff1f3;
+    color: white;
+}
+
+.footer{
+    background-color: #1f2937;
+    padding: 60px;
+    color: white;
+}
